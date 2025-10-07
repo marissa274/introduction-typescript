@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "sttict": true,
+        "target": "ES6",
+        "module": "ES6",
+        "moduleResolution": "bundler",
+        "forceConsistentCasingInFileNames": true,
+        "rootDir": "./public/scripts",
+        "outDir": "./dist",  
+    },
+    
+}
