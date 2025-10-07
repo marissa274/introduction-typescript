@@ -7,7 +7,7 @@ if (values.length > 2) {
 }
 
 
-function greet(user) {
+function greet(user: { username: string }){
     return "Hello, " + user.username.toUpperCase();
 }
 
