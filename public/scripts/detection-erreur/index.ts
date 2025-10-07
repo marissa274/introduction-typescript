@@ -1,3 +1,7 @@
+type User = {
+    username: string;
+}
+
 const values = [1, 2, 3, 4, 5];
 
 if (values.length > 2) {
@@ -7,9 +11,9 @@ if (values.length > 2) {
 }
 
 
-function greet(user: { username: string }){
+function greet(user: User){
     return "Hello, " + user.username.toUpperCase();
 }
 
-const user = { username: "Marissabelle" };
+const user: User = { username: "Marissabelle" };
 greet(user);
