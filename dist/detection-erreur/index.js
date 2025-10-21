@@ -10,3 +10,4 @@ function greet(user) {
 }
 const user = { username: "Marissabelle" };
 greet(user);
+export {};
